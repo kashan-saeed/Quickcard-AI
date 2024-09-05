@@ -4,13 +4,13 @@ An AI-powered flashcard study tool, that removes the hassle of making flashcards
 Interact with it live here: https://?.vercel.app/
 
 ## Features:
-- [x] Adding new Item
-- [x] Changing Quantity
-- [x] Remove Inventory
-- [x] Deployed to Vercel
-- [ ] Search and Filter
-- [ ] Infinite Scrool
-- [ ] Set up development deployment
+- [x] Gemini Generating Flashcards
+- [x] Accepting text as input
+- [x] Payment Processing
+- [ ] User Authentication and Login Page
+- [ ] Store User Data and Flashcards to Firebase
+- [ ] Deploying to Vercel
+- [ ] Accepting pdf's as input
 
 <img src="./preview_images/preview.gif" alt="preview" width="600"/>
 
