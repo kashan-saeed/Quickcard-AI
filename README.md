@@ -1,7 +1,7 @@
 # Quickcards AI
 An AI-powered flashcard study tool, that removes the hassle of making flashcards by taking your notes and generating ready-made flashcards for you. Cutting down prep time by 90%.
 
-Interact with it live here: https://quickcard-ai.vercel.app/ \
+Interact with it live here: https://quickcard-ai-kashan-saeeds-projects.vercel.app/ \
 It has a few bigs I am still ironing out but it works 90%.
 
 ## Features:
