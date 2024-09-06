@@ -8,9 +8,9 @@ It has a few bigs I am still ironing out but it works 90%.
 - [x] Gemini Generating Flashcards
 - [x] Accepting text as input
 - [x] Payment Processing
-- [ ] User Authentication and Login Page
-- [ ] Store User Data and Flashcards to Firebase
-- [ ] Deploying to Vercel
+- [x] User Authentication and Login Page
+- [x] Store User Data and Flashcards to Firebase
+- [x] Deploying to Vercel
 - [ ] Accepting pdf's as input
 
 ## Tech Stack:
