@@ -1,6 +1,8 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { collection, setDoc, doc, getDoc, writeBatch } from 'firebase/firestore';
+import db from '@/firebase';
 import {
   Container,
   TextField,
