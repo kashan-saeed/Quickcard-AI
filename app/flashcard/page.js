@@ -1,4 +1,4 @@
-import { Box, Card, CardActionArea, CardContent, Container, Grid, Typography } from "@mui/material"
+import { Box, Card, CardActionArea, CardContent, Container, Grid, Typography } from '@mui/material';
 
 
 export default function Flashcard() {
