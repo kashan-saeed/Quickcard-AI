@@ -1,4 +1,10 @@
+'use client'
+
 import { Container, CircularProgress, Typography, Box } from '@mui/material';
+import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+import getStripe from '@/utils/get-stripe';
+import { useSearchParams } from 'next/navigation';
 
 const ResultPage = () => {
     const router = useRouter()
@@ -30,12 +36,12 @@ const ResultPage = () => {
 
     if (loading) {
         return (
-            <Container maxWidth="sm" sx={{textAlign: 'center', mt: 4}}>
+          <Container maxWidth="sm" sx={{textAlign: 'center', mt: 4}}>
             <CircularProgress />
             <Typography variant="h6" sx={{mt: 2}}>
                 Loading...
             </Typography>
-            </Container>
+          </Container>
         )
     }
 

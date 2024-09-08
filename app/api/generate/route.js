@@ -48,7 +48,7 @@ export async function POST(req) {
     const userInputData = await req.text();
     const aiOutput = await model.generateContent(userInputData);
 
-    console.log(aiOutput.response.text())
+    //console.log(aiOutput.response.text())
 
     // Parse the JSON response from Google Generative AI API
     const flashcards = JSON.parse(aiOutput.response.text());
